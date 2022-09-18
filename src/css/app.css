@@ -1,0 +1,24 @@
+@import-normalize;
+@import 'font.css';
+@import 'recipie-list.css';
+@import 'recipie.css';
+@import 'item-list.css';
+@import 'recipie-edit.css';
+@import 'search.css';
+@import 'buttons.css';
+
+*,*::before,*::after{
+    font-family: Gotham Rounded , sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.mr-1{
+    margin-right: 5px;
+}

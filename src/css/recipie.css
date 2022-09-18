@@ -1,0 +1,46 @@
+.recipie{
+    border-bottom: 1px solid black;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+.recipie:last-child{
+    border-bottom: none;
+    padding-bottom: 10px;
+}
+
+
+.recipie__title{
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.recipie__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.recipie__row{
+    margin-top: 10px;
+}
+
+.recipie__label{
+    margin-right: 5px;
+}
+
+
+.recipie__value{
+    font-weight: 300;
+}
+
+.recipie__value--intended{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.recipie__value--instructions{
+    white-space: pre-wrap;
+}

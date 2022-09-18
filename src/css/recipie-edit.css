@@ -1,0 +1,67 @@
+.recipie--edit__section {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    padding-top: 10px;
+    overflow-y: auto;
+    width: 50%;
+    height: 100vh;
+}
+
+.recipie--edit__btn-container {
+    text-align: end;
+    padding: 0;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.recipie--edit__label {
+    font-weight: bold;
+}
+
+.recipie--edit__details-grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    row-gap: 10px;
+    column-gap: 40px;
+}
+
+.recipie--edit__input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: inherit;
+    outline: none;
+    width: 100%;
+}
+
+textarea.recipie--edit__input {
+    resize: none;
+    height: 200px;
+}
+
+.recipie--edit__add-items-btn-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.recipie--edit__items-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, auto);
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+
+@media (max-width : 1000px){
+    .recipie--edit__details-grid,.recipie--edit__items-grid{
+        grid-template-columns: 1fr;
+    }
+    .recipie--edit__items-grid{
+        margin-left: 0px;
+    }
+}

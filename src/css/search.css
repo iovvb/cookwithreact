@@ -1,0 +1,12 @@
+.search-container{
+    width: 100%;
+    display: flex;
+    border-bottom: .8px gray solid;
+}
+.search-field{
+    text-align: center;
+    margin: 20px auto;
+    outline: none;
+    border: .5px solid gray;
+    border-radius: 5px;
+}
